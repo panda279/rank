@@ -111,6 +111,7 @@ if excel_file is not None:
                 "数智学院": "数据科学与人工智能学院",
                 "电子与电气工程学院": "电子与电气学院",
                 "创新与创业学院": "创新创业学院"
+                "建筑与能源工程": "建筑与能源工程学院",
             }
             
             def normalize_college_name(name):
@@ -185,3 +186,4 @@ if excel_file is not None:
 
 else:
     st.info("👆 请先上传Excel文件")
+
